@@ -32,7 +32,7 @@ int main() {
     for (i = 0; i < r1; i++) {
         for (j = 0; j < c2; j++) {
             m3[i][j] = 0;
-            for (k = 0; k < c1; k++) {
+            for (k = 0; k < c1; k++) {//as c1 and r2 are same
                 m3[i][j] += m1[i][k] * m2[k][j];
             }
         }

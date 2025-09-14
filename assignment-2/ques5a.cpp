@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"enter the number of elements is diagonal : \n";
+    cout<<"enter the number of elements in diagonal : \n";
     cin>>n;
     int arr[n];
     cout<<"enter the diagonal elements :\n";

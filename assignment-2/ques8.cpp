@@ -12,7 +12,7 @@ int main() {
 		cin>>arr[i];
 	}
 
-	int counter[255]={};
+	int counter[999999]={};
 	
 	for(int i=0;i<size;i++){
 		int help=arr[i];
@@ -21,7 +21,7 @@ int main() {
 	
 	int count =0;
 	
-	for(int i=0;i<255;i++){
+	for(int i=0;i<999999;i++){
 		if(counter[i]>0){
 			count++;
 		}

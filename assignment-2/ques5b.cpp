@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"enter the number of elements :\n";
+    cout<<"enter the number of rows :\n";
     cin>>n;
     int arr[3*n-2];
     cout<<"enter the elements :\n";
